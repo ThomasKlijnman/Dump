@@ -1,1 +1,2 @@
-Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementToolsInstall-ADDSForest -DomainName ultralogic.pri
+Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
+Install-ADDSForest -DomainName ultralogic.pri
